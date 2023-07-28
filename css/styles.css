@@ -1,0 +1,107 @@
+/* Base styles */
+.section {
+   background-color: #fff;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.list {
+   list-style: none;
+}
+
+body {
+   font-family: Roboto;
+   font-style: normal;
+}
+
+/* Hero styles */
+.hero-title {
+
+}
+
+.hero-btn {
+   border-radius: 4px;
+   background: var(--iris, #4D5AE5);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   color: #fff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+   border-radius: 4px;
+   background: var(--ocean, #404BBF);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   color: #fff;
+   
+}
+
+/* Benefits styles */
+.benefits {
+   background: #fff; 
+
+}
+
+.benefits-title {
+
+}
+.benefits-list {
+
+}
+.benefits-list-item {
+
+}
+
+.benefits-list-subtitle {
+
+}
+
+.benefits-list-desc {
+
+}
+
+/* Work styles  */
+.case {
+
+}
+.case-title {
+
+}
+.case-list {
+
+}
+.case-list-item {
+
+}
+.case-list-img {
+
+}
+
+/* Team styles */
+.team {
+
+}
+
+.team-title {
+
+}
+
+.team-list {
+
+}
+
+.team-list-item {
+
+}
+
+.team-list-img {
+
+}
+
+.team-list-subtitle {
+
+}
+
+.team-list-desc {
+
+}
