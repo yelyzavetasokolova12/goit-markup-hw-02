@@ -77,6 +77,7 @@ text-transform: uppercase;
 /* adress */
 .adress {
    background: #fff;
+   font-style: normal;
 }
 .header-adress-link {
 color: #434455;
@@ -94,6 +95,11 @@ text-align: left;
 }
 
 /* Hero styles */
+
+.hero {
+   background-color: #2e2f42;
+}
+
 .hero-title {
    color: var(--white, #FFF);
    background-color:#2E2F42;
@@ -102,6 +108,7 @@ text-align: left;
    font-weight: 700;
    line-height: 1.07; 
    letter-spacing: 1.12px;
+   
 }
 
 .hero-btn {
@@ -115,6 +122,10 @@ text-align: left;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    color: #fff;
    cursor: pointer;
+   border-radius: 4px;
+   background: var(--iris, #4D5AE5);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -197,7 +208,7 @@ text-align: left;
 }
 
 .team-list {
-
+   background-color: #FFFFFF;
 }
 
 .team-list-item {
@@ -271,12 +282,11 @@ letter-spacing: 0.32px;
    background-color: #F4F4FD;
    font-family: "Roboto", sans-serif;
    text-align: center;
-   font-family: Roboto;
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: 1.5; 
-   letter-spacing: 0.04px;
+   letter-spacing: 0.04em;
    background: var(--ocean, #404BBF);
 }
 .active-butto:hover,
@@ -293,14 +303,23 @@ letter-spacing: 0.32px;
 }
 .filter-button {
    color:  #4D5AE5;
+   background-color: #F4F4FD; 
    text-align: center;
-   font-family: Roboto;
+   font-family: "Roboto", sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: 1.5
-   letter-spacing: 0.04px;
+   letter-spacing: 0.04em; 
 }
+
+.filter-butto:hover,
+.filter-butto:focus {
+   color: #FFFFFF;
+   background-color: #404BBF;
+   cursor: pointer;
+}
+
 /* Rows */
 
 .project-list {
